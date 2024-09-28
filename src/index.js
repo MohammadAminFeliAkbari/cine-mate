@@ -1,5 +1,11 @@
-import reactDOM from 'react-dom';
-import App from './App';
+import ReactDOM from 'react-dom'; // Corrected: Capital 'R' in ReactDOM  
+import App from './App.js';
 import './index.css';
+import { BrowserRouter } from 'react-router-dom';
 
-reactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(
+    <BrowserRouter>
+        <App />
+    </BrowserRouter>,
+    document.getElementById('root')
+);
