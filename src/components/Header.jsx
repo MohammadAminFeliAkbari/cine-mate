@@ -28,7 +28,7 @@ const Header = () => {
           >
             <img src={Logo} className="h-10" alt="Flowbite Logo" />
             <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-              CineMate v1.0
+              CineMate v1.1
             </span>
           </NavLink>
           <div className="flex md:order-2">
