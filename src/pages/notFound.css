@@ -12,9 +12,9 @@ body {
 }
 
 .notFound {
-  padding: 0;
+  padding: 20px;
   margin: 0px;
-  background: white;
+  background: rgb(112, 112, 255);
   font-size: 14px;
   line-height: 1;
 }

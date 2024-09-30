@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import Logo from '../assets/Logo.png';
 const Footer = () => {
   return (
     <div>
@@ -8,7 +9,7 @@ const Footer = () => {
             <div className="mb-6 md:mb-0">
               <Link to="https://flowbite.com/" className="flex items-center">
                 <img
-                  src="https://flowbite.com/docs/images/logo.svg"
+                  src={Logo}
                   className="h-8 me-3"
                   alt="FlowBite Logo"
                 />

@@ -20,7 +20,7 @@ const MovieList = ({ apiPath }) => {
   return (
     <section>
       <main
-        className="grid flex-wrap grid-flow-row"
+        className="grid flex-wrap grid-flow-row bg-blue-900"
         style={{
           gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))",
         }}
